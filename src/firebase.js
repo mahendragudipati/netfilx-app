@@ -1,7 +1,7 @@
 // // Import the functions you need from the SDKs you need
-// import { initializeApp } from "firebase/app";
-// import { getAuth } from "firebase/auth";
-// import { getFirestore } from "firebase/firestore";
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
+import { getFirestore } from "firebase/firestore";
 
 // // TODO: Add SDKs for Firebase products that you want to use
 // // https://firebase.google.com/docs/web/setup#available-libraries
@@ -27,30 +27,48 @@
 
 
 
- // Import the functions you need from the SDKs you need
- import { initializeApp } from "firebase/app";
- import { getAuth } from "firebase/auth";
- import { getFirestore } from "firebase/firestore";
+//  // Import the functions you need from the SDKs you need
+//  import { initializeApp } from "firebase/app";
+//  import { getAuth } from "firebase/auth";
+//  import { getFirestore } from "firebase/firestore";
  
  
- const firebaseConfig = {
+//  const firebaseConfig = {
    
-    apiKey: "AIzaSyD3mxcc52KB5F3CIIh1loeaFU7UR1SoN88",
-    authDomain:"netflix-react1-be53d.firebaseapp.com",
-    projectId: "netflix-react1-be53d",
-    storageBucket: "netflix-react1-be53d.appspot.com",
-   messagingSenderId: "528351523732",
-   appId: "1:528351523732:web:2f6d2d41642b0744c11581"
- };
+//     apiKey: "AIzaSyC6DQByuBL6fACiNLRDNA1Uw8LWKfa9mQQ",
+//     authDomain:"netfilx-react-yt-ad1c1.firebaseapp.com",
+//     projectId: "netfilx-react-yt-ad1c1",
+//     storageBucket: "netfilx-react-yt-ad1c1.appspot.com",
+//    messagingSenderId: "556651752",
+//    appId: "1:556651752:web:55ce1ae7fbc8fc1ebc255d"
+//  };
  
- // Initialize Firebase
-  export const app = initializeApp(firebaseConfig);
+//  // Initialize Firebase
+//   export const app = initializeApp(firebaseConfig);
+//  export const auth = getAuth(app);
+//  export const db = getFirestore(app);
+
+
+
+// Import the functions you need from the SDKs you need
+// import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyC6DQByuBL6fACiNLRDNA1Uw8LWKfa9mQQ",
+  authDomain: "netfilx-react-yt-ad1c1.firebaseapp.com",
+  projectId: "netfilx-react-yt-ad1c1",
+  storageBucket: "netfilx-react-yt-ad1c1.appspot.com",
+  messagingSenderId: "556651752",
+  appId: "1:556651752:web:bcb0b14147ff93e5bc255d"
+};
+
+// Initialize Firebase
+export const app = initializeApp(firebaseConfig);
  export const auth = getAuth(app);
- export const db = getFirestore(app);
-
-
-
-
+ export const db = getFirestore(app)
 
 
 

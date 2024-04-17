@@ -8,3 +8,6 @@ body{
   background-color: #000000;
   font-family: 'Lato','Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+#dummy ::-webkit-scrollbar{
+  display:none
+}

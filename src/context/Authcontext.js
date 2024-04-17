@@ -121,7 +121,6 @@ import { auth,db } from '../firebase';
 
 import {
     createUserWithEmailAndPassword,
-   
     signOut,
     onAuthStateChanged,
     signInWithEmailAndPassword,

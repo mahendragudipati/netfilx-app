@@ -79,14 +79,16 @@
 
 import React, { useState } from 'react'
 import { Link ,useNavigate} from 'react-router-dom'; 
-import { UserAuth } from '../context/Authcontext';
+import { UserAuth } from '../../src/context/Authcontext'
+
+
 
 
 function Signup() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
-  const {user,signUp}=UserAuth()
+  const {user,signUp}=UserAuth;
   const navigate=useNavigate()
 
   const handleSubmit = async (e) => {
