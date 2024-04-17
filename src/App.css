@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+/* #silder{ */
+  /* #slider {
+    -ms-overflow-style: none;
+     scroll-behavior:hidden;
+    }
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+    
+  } */
+
+
+/* .component{ */
+  /* overflow:scroll!important; */
+  /* white-space:nowrap; */
+  /* scroll-behavior:smooth; */
+  /* position: relative; */
+  /* scrollbar-width:hidden ; */
+  /* width:100% */
+
+/* 'w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide relative */
+/* } */
